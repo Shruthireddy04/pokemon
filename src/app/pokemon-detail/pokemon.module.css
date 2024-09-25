@@ -1,0 +1,42 @@
+.padding {
+	padding: 10px;
+	display: flex;
+	gap: 20px;
+	background-color: black;
+	color: white;
+}
+.list {
+	padding: 10px 15px 10px 5px;
+	background-color: #003060;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	/* flex: 1 1 0; */
+	gap: 10px;
+	max-height: 100vh;
+}
+.child {
+	flex-grow: 1;
+	grid-template-columns: auto auto;
+	flex-direction: column;
+	grid-gap: 0;
+
+	flex-grow: 1;
+	flex-direction: column;
+}
+
+.detailCnt {
+	position: fixed;
+}
+
+.desc {
+	color: orange;
+	font-size: 18px;
+}
+.ability {
+	font-size: 15px;
+	margin: 5px 20px;
+}
+.heading {
+	color: pink;
+}
